@@ -1,0 +1,85 @@
+version: '3.8'
+
+services:
+  # Laravel Backend
+  backend:
+    build:
+      context: ./bayi-backend
+      dockerfile: Dockerfile
+    container_name: bayizone-backend
+    restart: unless-stopped
+    ports:
+      - "8000:80"
+    environment:
+      - APP_ENV=production
+      - APP_DEBUG=false
+      - DB_HOST=mysql
+      - DB_DATABASE=bayi_sistemi
+      - DB_USERNAME=bayi_user
+      - DB_PASSWORD=bayi_password_2024
+    volumes:
+      - ./bayi-backend:/var/www/html
+      - ./bayi-backend/storage:/var/www/html/storage
+    depends_on:
+      - mysql
+    networks:
+      - bayizone-network
+
+  # MySQL Database
+  mysql:
+    image: mysql:8.0
+    container_name: bayizone-mysql
+    restart: unless-stopped
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password_2024
+      MYSQL_DATABASE: bayi_sistemi
+      MYSQL_USER: bayi_user
+      MYSQL_PASSWORD: bayi_password_2024
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./mysql-init:/docker-entrypoint-initdb.d
+    networks:
+      - bayizone-network
+
+  # Nginx Reverse Proxy
+  nginx:
+    image: nginx:alpine
+    container_name: bayizone-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx-config.conf:/etc/nginx/conf.d/default.conf
+      - ./bayi-provider-panel/dist:/var/www/bayi-provider-panel/dist
+      - ./bayi-store/dist:/var/www/bayi-store/dist
+      - ./bayi-client-panel/dist:/var/www/bayi-client-panel/dist
+      - ./ssl:/etc/ssl
+    depends_on:
+      - backend
+    networks:
+      - bayizone-network
+
+  # Redis (for caching)
+  redis:
+    image: redis:alpine
+    container_name: bayizone-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - bayizone-network
+
+volumes:
+  mysql_data:
+    driver: local
+  redis_data:
+    driver: local
+
+networks:
+  bayizone-network:
+    driver: bridge 
