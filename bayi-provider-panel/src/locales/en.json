@@ -1,0 +1,339 @@
+{
+  "account": {
+    "emailNotChangeable": "Your email address cannot be changed",
+    "settings": "Account settings",
+    "updated": "Your information has been updated"
+  },
+  "actions": {
+    "addToCart": "Add to Cart",
+    "cancel": "Cancel",
+    "clear": "Clear",
+    "close": "Close",
+    "confirm": "Confirm",
+    "create": "Create",
+    "createConfirm": "Are you sure you want to create?",
+    "createError": "Create failed",
+    "createSuccess": "Create process was successful",
+    "delete": "Delete",
+    "deleteConfirm": "Are you sure you want to delete?",
+    "deleteError": "Deletion failed",
+    "deleteNotRecoverable": "You will not be able to undo this action!",
+    "deleteSuccess": "Deletion successful",
+    "detail": "Detail",
+    "edit": "Edit",
+    "loading": "Loading...",
+    "logout": "Log out",
+    "no": "No",
+    "preview": "View",
+    "processSuccess": "Process Success",
+    "removeFromCart": "Remove from Cart",
+    "save": "Save",
+    "search": "Search",
+    "seeAll": "See All",
+    "select": "Choose",
+    "show": "Show",
+    "update": "Update",
+    "updateConfirm": "Are you sure you want to update?",
+    "updateError": "Update failed",
+    "updateSuccess": "Update process successful",
+    "view": "View",
+    "yes": "Yes"
+  },
+  "common": {
+    "action": "Process",
+    "actions": "Actions",
+    "active": "Active",
+    "address": "Address",
+    "all": "All",
+    "buyer": "Buyer",
+    "city": "City",
+    "country": "Country",
+    "created_at": "Creation Date",
+    "currency": "Currency",
+    "data": {
+      "retrievalError": "An error occurred while fetching data"
+    },
+    "date": "Date",
+    "description": "Description",
+    "district": "District",
+    "email": "Email",
+    "error": "Mistake",
+    "filter": {
+      "createDate": "Create Date",
+      "dateEnd": "End Date",
+      "dateStart": "Start Date",
+      "dateType": "Date Type"
+    },
+    "fullname": "Name surname",
+    "generalNote": "General Note",
+    "loggedOut": "Logged Out",
+    "loggedOutFromTimeout": "Your session has expired",
+    "new": "New",
+    "noData": "No data found",
+    "note": "Note",
+    "ok": "Ok",
+    "options": "Options",
+    "order": {
+      "date": "Order date",
+      "invoiceDetail": "Order/Invoice Details",
+      "no": "Order No",
+      "overseasSale": "Overseas Sales"
+    },
+    "passive": "Passive",
+    "phone": "Phone",
+    "price": "Price",
+    "process_date": "Process date",
+    "product": "Product",
+    "productCode": "Product code",
+    "productDetail": "Product Detail",
+    "productNote": "Product Note",
+    "productTotalPrice": "Total price",
+    "productUnitPrice": "Unit price",
+    "provider": "Provider",
+    "province": "Province",
+    "quantity": "Quantity",
+    "redirecting": "Redirecting...",
+    "sent": "Sent",
+    "status": "Status",
+    "statusHistory": "Status History",
+    "subtotal": "Subtotal",
+    "success": "Successful",
+    "tax": "Tax",
+    "thankForChoosingUs": "Thank you for choosing Bayizone.",
+    "total": "Total",
+    "updated_at": "Updated At",
+    "variants": "Variants",
+    "zipcode": "Post code"
+  },
+  "components": {
+    "bank_accounts": {
+      "create": {
+        "title": "Create Bank Account"
+      },
+      "edit": {
+        "title": "Bank information"
+      },
+      "form": {
+        "accountNumber": "Account number",
+        "swift": "Swift Code"
+      },
+      "index": {
+        "accountName": "Account name",
+        "bankName": "Bank Name",
+        "branchName": "Branch name",
+        "iban": "IBAN",
+        "title": "Bank Accounts"
+      }
+    },
+    "cart": {
+      "addedSuccessfully": "The product has been added to the cart.",
+      "noItem": "There are no products in your cart.",
+      "remove": "Remove from Cart",
+      "title": "Cart"
+    },
+    "datatable": {
+      "limit": "Limit",
+      "total": "Showing {start} to {end} from total {total} data."
+    },
+    "login": {
+      "code": "Company Code",
+      "createNewPassword": "Enter Your New Password",
+      "email": "Email",
+      "enterYourCredentials": "Enter Your Credentials",
+      "forgotPassword": "I forgot my password",
+      "login": "Login",
+      "loginToYourAccount": "Login to Your Account",
+      "password": "Password",
+      "recoverPassword": "Reset My Password",
+      "rememberMe": "Remember me",
+      "success": "Login successful"
+    },
+    "offerRequestModal": {
+      "title": "Detail"
+    },
+    "offer_request": {
+      "create": {
+        "back": "Go back",
+        "error": "Could not create offer request!",
+        "proformaNote": "Proforma Note",
+        "success": "Offer Request Created!",
+        "summaryText": "Offer Summary"
+      },
+      "elements": {
+        "product": {
+          "height": "Height",
+          "length": "Length",
+          "package": "Package",
+          "volume": "Volume",
+          "weight": "Weight",
+          "width": "Width"
+        }
+      }
+    },
+    "offer_requests": {
+      "productQuantity": "Product Quantity",
+      "status": {
+        "accepted": "Accepted",
+        "pending": "Pending",
+        "rejected": "Rejected"
+      },
+      "title": "Offer Requests"
+    },
+    "offers": {
+      "date": "Offer date",
+      "due_date": "Offer Due Date",
+      "offer_no": "Offer No",
+      "status": {
+        "approved": "Approved",
+        "canceled": "Canceled",
+        "closed": "Closed",
+        "draft": "Draft",
+        "expired": "Expired",
+        "pending": "Pending Dealer Approval",
+        "rejected": "Rejected",
+        "revised": "Revised",
+        "unknown": "Unknown"
+      },
+      "title": "Offers"
+    },
+    "orders": {
+      "downloadExcel": "Download Excel",
+      "filter": {
+        "orderDate": "Order date"
+      },
+      "historyNotExist": "Order history not found",
+      "lineHistory": "Order Items History",
+      "orderline": {
+        "notselectedfount": "Order Item Not Selected/Not Found"
+      },
+      "remain": "Remainder",
+      "remainQuantity": "Remaining pieces",
+      "sentquantity": "Quantity Sent",
+      "show": {
+        "title": "Order Details"
+      },
+      "showTitle": "Order: #{0} Detail",
+      "statusHistory": "Order Status History",
+      "table": {
+        "orderDate": "Order date",
+        "status": "Status",
+        "totalPrice": "Total price"
+      },
+      "title": "Orders"
+    },
+    "shipment": {
+      "deliver_date": "Delivery date",
+      "not_delivered": "Not delivered",
+      "not_sent": "Not sent",
+      "sent_date": "Shipping Date",
+      "shipment_no": "Shipment No",
+      "total_package": "Total Package",
+      "total_volume": "Total Volume",
+      "total_weight": "Total weight",
+      "unit_package": "Unit Package",
+      "unit_volume": "Unit Volume",
+      "unit_weight": "Unit weight"
+    },
+    "users": {
+      "create": {
+        "title": "Create User"
+      },
+      "edit": {
+        "title": "Edit User"
+      },
+      "form": {
+        "email": "E-mail",
+        "name": "Name surname",
+        "password": "Password",
+        "passwordNotEqual": "Passwords Don't Match",
+        "phone": "Phone",
+        "repass": "Password Confirmation"
+      },
+      "index": {
+        "title": "Users"
+      }
+    },
+    "warehouses": {
+      "create": {
+        "title": "Create Warehouse"
+      },
+      "edit": {
+        "title": "Edit Warehouse"
+      },
+      "form": {
+        "contactPerson": "Contact Person",
+        "contactPersonMail": "Contact Person Email",
+        "contactPersonPhone": "Contact Person Phone"
+      },
+      "index": {
+        "authorizedName": "Authorized Name",
+        "name": "Warehouse Name",
+        "title": "Warehouse List"
+      }
+    }
+  },
+  "input": {
+    "fillRequiredFields": "Please fill in the required fields.",
+    "starAreaNeedFill": "Starred fields are required."
+  },
+  "pages": {
+    "auth": {
+      "forgotPassword": {
+        "forResetEnterEmail": "Enter your e-mail address to reset your password",
+        "invalidLink": "Invalid request",
+        "newpassword": "New Password",
+        "repass": "New Password Validate",
+        "resetPassword": "Reset My Password",
+        "success": "The password reset link has been sent to your email address.",
+        "successChange": "Your password has been changed successfully.",
+        "title": "I forgot my password"
+      },
+      "login": {
+        "title": "Login"
+      }
+    },
+    "dashboard": {
+      "approvedOffer": "Approved Offers",
+      "last5OfferRequest": "Last 5 Offer Request",
+      "offerStatuses": {
+        "accepted": "Approved",
+        "default": "Pending",
+        "pending": "Pending",
+        "rejected": "Denied"
+      },
+      "pendingOffer": "Pending Offers",
+      "rejectedOffer": "Rejected Offers",
+      "totalOffer": "Total Offers"
+    }
+  },
+  "sidemenu": {
+    "bankAccounts": "Bank Accounts",
+    "createOfferRequest": "Create Offer Request",
+    "dashboard": "Home page",
+    "offer": "Offers",
+    "offerRequest": "Offer Requests",
+    "orders": "Orders",
+    "product": "Products",
+    "productCategory": "product categories",
+    "shipments": "Shipments",
+    "store": "Store",
+    "user": "Users",
+    "warehouse": "Warehouses"
+  },
+  "statuses": {
+    "common": {
+      "canceled": "Cancelled",
+      "draft": "Draft",
+      "unknown": "Unknown"
+    },
+    "shipment": {
+      "delivered": "Delivered",
+      "pending": "Pending",
+      "shipped": "Shipped"
+    }
+  },
+  "variant": {
+    "COLOR": "Color",
+    "DIMENSION": "Dimension"
+  }
+}

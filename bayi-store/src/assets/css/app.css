@@ -1,0 +1,28 @@
+@import 'primeicons/primeicons.css';
+
+@layer tailwind-base, primevue, tailwind-utilities;
+
+@layer tailwind-base {
+    @tailwind base;
+}
+
+@layer tailwind-utilities {
+    @tailwind components;
+    @tailwind utilities;
+}
+
+.p-galleria-content{
+    @apply border border-gray-200 rounded-lg shadow-md;
+}
+
+.p-galleria img{
+    @apply rounded-lg;
+}
+
+.p-galleria-thumbnail-wrapper{
+    @apply rounded-b-md;
+}
+
+.p-galleria-thumbnail-container{
+    @apply bg-white ;
+}

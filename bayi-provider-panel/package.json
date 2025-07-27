@@ -1,0 +1,80 @@
+{
+  "name": "frontend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.scss": [
+      "stylelint",
+      "prettier --write"
+    ],
+    "*.md": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.vue": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "@types/node": "18.11.18",
+    "@vueuse/core": "9.10.0",
+    "@vueuse/head": "1.0.22",
+    "@vueuse/router": "9.10.0",
+    "h3": "1.0.2",
+    "html2pdf.js": "^0.10.1",
+    "jquery": "^3.6.3",
+    "listhen": "1.0.1",
+    "lodash": "^4.17.21",
+    "node": "^20.2.0",
+    "nprogress": "0.2.0",
+    "pinia": "^2.0.28",
+    "primevue": "^3.52.0",
+    "terser": "^5.19.2",
+    "unplugin-auto-import": "^0.16.4",
+    "unplugin-vue-components": "^0.25.1",
+    "vue": "^3.3.4",
+    "vue-easy-lightbox": "^1.16.0",
+    "vue-html-to-paper": "^2.0.3",
+    "vue-i18n": "9.3.0-beta.12",
+    "vue-router": "^4.2.2",
+    "vue-select": "^4.0.0-beta.6",
+    "vue-sweetalert2": "^5.0.5",
+    "vue-upload-component": "^3.1.8",
+    "vue-uuid": "^3.0.0",
+    "vue3-carousel": "^0.3.1"
+  },
+  "devDependencies": {
+    "@intlify/unplugin-vue-i18n": "0.8.1",
+    "@types/jquery": "^3.5.16",
+    "@types/lodash": "^4.14.195",
+    "@types/nprogress": "0.2.0",
+    "@types/vue-select": "^3.16.2",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "autoprefixer": "^10.4.19",
+    "axios": "1.2.2",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "unplugin-vue-router": "^0.6.4",
+    "vite": "^4.0.0"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "postcss",
+        "shiki",
+        "react-dom",
+        "react"
+      ]
+    }
+  }
+}

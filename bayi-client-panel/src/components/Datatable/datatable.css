@@ -1,0 +1,591 @@
+/**
+* Author: Berke GÜLEÇ
+**/
+
+#vueTableContent :root {
+  --blue: #5e72e4;
+  --indigo: #5603ad;
+  --purple: #8965e0;
+  --pink: #f3a4b5;
+  --red: #f5365c;
+  --orange: #fb6340;
+  --yellow: #ffd600;
+  --green: #2dce89;
+  --teal: #11cdef;
+  --cyan: #2bffc6;
+  --white: #fff;
+  --gray: #8898aa;
+  --gray-dark: #32325d;
+  --light: #ced4da;
+  --lighter: #e9ecef;
+  --primary: #5e72e4;
+  --secondary: #f7fafc;
+  --success: #2dce89;
+  --info: #11cdef;
+  --warning: #fb6340;
+  --danger: #f5365c;
+  --light: #adb5bd;
+  --dark: #212529;
+  --default: #172b4d;
+  --white: #fff;
+  --neutral: #fff;
+  --darker: black;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: Open Sans, sans-serif;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+*,
+#vueTableContent ::after,
+#vueTableContent ::before {
+  box-sizing: border-box;
+}
+
+#vueTableContent footer,
+#vueTableContent nav {
+  display: block;
+}
+
+#vueTableContent body {
+  font-family: Open Sans, sans-serif !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  margin: 0 !important;
+  text-align: left !important;
+  color: #525f7f !important;
+  background-color: #f8f9fe !important;
+}
+
+#vueTableContent [tabindex="-1"]:focus {
+  outline: 0 !important;
+}
+
+#vueTableContent h2,
+#vueTableContent h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+#vueTableContent p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+#vueTableContent ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+#vueTableContent ul ul {
+  margin-bottom: 0;
+}
+
+#vueTableContent a {
+  text-decoration: none;
+  color: #18a4d1;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+#vueTableContent a:hover {
+  text-decoration: none;
+  color: #34bce8;
+}
+
+#vueTableContent a:not([href]):not([tabindex]) {
+  text-decoration: none;
+  color: inherit;
+}
+
+#vueTableContent a:not([href]):not([tabindex]):focus,
+#vueTableContent a:not([href]):not([tabindex]):hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+#vueTableContent a:not([href]):not([tabindex]):focus {
+  outline: 0;
+}
+
+#vueTableContent img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+#vueTableContent table {
+  border-collapse: collapse;
+}
+
+#vueTableContent th {
+  text-align: inherit;
+}
+
+#vueTableContent button {
+  border-radius: 0;
+}
+
+#vueTableContent button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+#vueTableContent button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+}
+
+#vueTableContent button {
+  overflow: visible;
+}
+
+#vueTableContent button {
+  text-transform: none;
+}
+
+#vueTableContent ::-webkit-file-upload-button {
+  font: inherit;
+  -webkit-appearance: button;
+}
+
+#vueTableContent [hidden] {
+  display: none !important;
+}
+
+#vueTableContent .h2,
+#vueTableContent .h3,
+#vueTableContent h2,
+#vueTableContent h3 {
+  font-family: inherit;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  color: #32325d;
+}
+
+#vueTableContent .h2,
+#vueTableContent h2 {
+  font-size: 1.25rem;
+}
+
+#vueTableContent .h3,
+#vueTableContent h3 {
+  font-size: 1.0625rem;
+}
+
+#vueTableContent .row {
+  display: flex;
+  margin-right: -15px;
+  margin-left: -15px;
+  flex-wrap: wrap;
+}
+
+#vueTableContent .col {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#vueTableContent .col {
+  max-width: 100%;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+#vueTableContent .table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+#vueTableContent .table td,
+#vueTableContent .table th {
+  padding: 1rem;
+  vertical-align: top;
+  border-top: 1px solid #e9ecef;
+}
+
+#vueTableContent .table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #e9ecef;
+}
+
+#vueTableContent .table tbody + tbody {
+  border-top: 2px solid #e9ecef;
+}
+
+#vueTableContent .table .table {
+  background-color: #f8f9fe;
+}
+
+#vueTableContent .table .thead-light th {
+  color: #8898aa;
+  border-color: #e9ecef;
+  background-color: #f6f9fc;
+}
+
+#vueTableContent .table-responsive {
+  display: block;
+  overflow-x: auto;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+#vueTableContent .nav {
+  display: flex;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+#vueTableContent .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 0.375rem;
+  background-color: #fff;
+  background-clip: border-box;
+}
+
+#vueTableContent .card-header {
+  margin-bottom: 0;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+}
+
+#vueTableContent .card-header:first-child {
+  border-radius: calc(0.375rem - 1px) calc(0.375rem - 1px) 0 0;
+}
+
+#vueTableContent .card-footer {
+  padding: 1.25rem 1.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+}
+
+#vueTableContent .card-footer:last-child {
+  border-radius: 0 0 calc(0.375rem - 1px) calc(0.375rem - 1px);
+}
+
+#vueTableContent .media {
+  display: flex;
+  align-items: flex-start;
+}
+
+#vueTableContent .media-body {
+  flex: 1 1;
+}
+
+#vueTableContent .border-0 {
+  border: 0 !important;
+}
+
+#vueTableContent .rounded-circle {
+  border-radius: 50% !important;
+}
+
+#vueTableContent .justify-content-end {
+  justify-content: flex-end !important;
+}
+
+#vueTableContent .align-items-center {
+  align-items: center !important;
+}
+
+#vueTableContent .shadow {
+  box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15) !important;
+}
+
+#vueTableContent .mb-0 {
+  margin-bottom: 0 !important;
+}
+
+#vueTableContent .mr-2 {
+  margin-right: 0.5rem !important;
+}
+
+#vueTableContent .mr-3 {
+  margin-right: 1rem !important;
+}
+
+#vueTableContent .mr-4 {
+  margin-right: 1.5rem !important;
+}
+
+#vueTableContent .mt-5 {
+  margin-top: 3rem !important;
+}
+
+#vueTableContent .mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+#vueTableContent .mt-7 {
+  margin-top: 6rem !important;
+}
+
+#vueTableContent .py-4 {
+  padding-top: 1.5rem !important;
+}
+
+#vueTableContent .py-4 {
+  padding-bottom: 1.5rem !important;
+}
+
+#vueTableContent [class*="shadow"] {
+  transition: all 0.15s ease;
+}
+
+#vueTableContent .avatar {
+  font-size: 1rem;
+  display: inline-flex;
+  width: 64px;
+  height: 64px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+#vueTableContent .avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+#vueTableContent .avatar-sm {
+  font-size: 0.875rem;
+  width: 36px;
+  height: 36px;
+}
+
+#vueTableContent .avatar-group .avatar {
+  position: relative;
+  z-index: 2;
+  border: 2px solid #fff;
+}
+
+#vueTableContent .avatar-group .avatar:hover {
+  z-index: 3;
+}
+
+#vueTableContent .avatar-group .avatar + .avatar {
+  margin-left: -1rem;
+}
+
+#vueTableContent[class*="btn-outline-"] {
+  border-width: 1px;
+}
+
+#vueTableContent .footer {
+  padding: 2.5rem 0;
+  background: #f7fafc;
+}
+
+#vueTableContent .page-item.active .page-link {
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+#vueTableContent .page-item .page-link,
+#vueTableContent .page-item span {
+  font-size: 0.875rem;
+  display: flex;
+  width: 36px;
+  height: 36px;
+  margin: 0 3px;
+  padding: 0;
+  border-radius: 50% !important;
+  align-items: center;
+  justify-content: center;
+}
+
+#vueTableContent .table thead th {
+  font-size: 0.65rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e9ecef;
+}
+
+#vueTableContent .table th {
+  font-weight: 600;
+}
+
+#vueTableContent .table td,
+#vueTableContent .table th {
+  font-size: 0.8125rem;
+  white-space: nowrap;
+}
+
+#vueTableContent .table.align-items-center td,
+#vueTableContent .table.align-items-center th {
+  vertical-align: middle;
+}
+
+#vueTableContent .table .thead-light th {
+  color: #8898aa;
+  background-color: #f6f9fc;
+}
+
+#vueTableContent .table-flush td,
+#vueTableContent .table-flush th {
+  border-right: 0;
+  border-left: 0;
+}
+
+#vueTableContent .table-flush tbody tr:first-child td,
+#vueTableContent .table-flush tbody tr:first-child th {
+  border-top: 0;
+}
+
+#vueTableContent .table-flush tbody tr:last-child td,
+#vueTableContent .table-flush tbody tr:last-child th {
+  border-bottom: 0;
+}
+
+#vueTableContent .card .table {
+  margin-bottom: 0;
+}
+
+#vueTableContent .card .table td,
+#vueTableContent .card .table th {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+#vueTableContent p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+#vueTableContent .span1 {
+  font-size: initial;
+  color: black;
+}
+
+/* Custom */
+#vueTableContent tr:not(:nth-child(0)):hover {
+  transform: scale(1);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  z-index: 999;
+  transition: transform 0.2s;
+  /* Animation */
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+select#vTable-length-changer {
+  word-wrap: normal;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px solid #b5b5b5;
+  padding: 3px 6px 2px 4px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 800px) {
+  /* Force table to not be like tables anymore */
+  #vueTableContent table,
+  #vueTableContent thead,
+  #vueTableContent tbody,
+  #vueTableContent th,
+  #vueTableContent td,
+  #vueTableContent tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  #vueTableContent thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  #vueTableContent tr {
+    border: 1px solid #ccc;
+  }
+
+  #vueTableContent td {
+    /* Behave  like a "row" */
+    border: none !important;
+    border-bottom: 1px solid #eee !important;
+    position: relative !important;
+    padding-left: 50% !important;
+    white-space: normal !important;
+    text-align: left !important;
+  }
+
+  #vueTableContent td:before {
+    /* Now like a table header */
+    position: absolute !important;
+    /* Top/left values mimic padding */
+    /* top: 6px !important; */
+    left: 6px !important;
+    width: 45% !important;
+    padding-right: 10px !important;
+    white-space: nowrap !important;
+    text-align: left !important;
+    font-weight: bold !important;
+  }
+
+  /*
+Label the data
+*/
+  #vueTableContent td:before {
+    content: attr(data-title) !important;
+  }
+}
+
+option {
+  background-color: #f0f0f0 !important;
+  color: #000 !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.justify-content-end {
+  justify-content: flex-end !important;
+}
+
+.pagination {
+  border-radius: 0.25rem;
+  display: flex;
+  list-style: none;
+  list-style-type: none;
+  padding-left: 0;
+}
+.cursor-pointer {
+  cursor: pointer !important;
+}

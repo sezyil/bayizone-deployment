@@ -1,0 +1,102 @@
+{
+  "common": {
+    "addToCart": "Sepete Ekle",
+    "cart": "Sepet",
+    "create": "Oluştur",
+    "delete": "Sil",
+    "detail": "Detay",
+    "hasError": "Hata oluştu",
+    "loading": "Yükleniyor...",
+    "product": "Ürün",
+    "productLoading": "Ürün yükleniyor",
+    "productNotFound": "Ürün Bulunamadı",
+    "productNotFoundSorry": "Üzgünüz, aradığınız ürün bulunamadı.",
+    "products": "Ürünler",
+    "removeFromCart": "Sepetten Çıkar",
+    "search": "Ara",
+    "searchInCategory": "Kategori",
+    "searchInStore": "Mağazada Ara...",
+    "store": "Mağaza",
+    "storeLoading": "Mağaza yükleniyor",
+    "storeNotFound": "Mağaza Bulunamadı",
+    "storeNotFoundSorry": "Üzgünüz, aradığınız mağaza bulunamadı.",
+    "success": "İşlem Başarılı"
+  },
+  "components": {
+    "cart": {
+      "empty": "Sepetiniz boş",
+      "errors": {
+        "address": "Adres alanı boş olamaz!",
+        "cart": "Sepetinizde ürün bulunmamaktadır!",
+        "city": "Şehir alanı boş olamaz!",
+        "country": "Ülke alanı boş olamaz!",
+        "district": "İlçe alanı boş olamaz!",
+        "email": "E-posta alanı boş olamaz!",
+        "fullname": "Ad-Soyad alanı boş olamaz!",
+        "phone": "Telefon alanı boş olamaz!"
+      },
+      "form": {
+        "address": "Adres",
+        "authorizedPerson": "Yetkili Kişi",
+        "city": "Şehir",
+        "country": "Ülke",
+        "currency": "Döviz ",
+        "customerType": {
+          "corporate": "Kurumsal",
+          "individual": "Bireysel"
+        },
+        "district": "İlçe",
+        "email": "E-posta",
+        "fullname": "Ad-Soyad",
+        "note": "Not",
+        "noteText": "Not: Bu alana eklemek istediğiniz notları yazabilirsiniz.",
+        "phone": "Telefon",
+        "success": "Teklif talebiniz başarıyla oluşturuldu. İlgili bilgiler mail adresinize gönderilecektir.",
+        "title": "Ünvan"
+      },
+      "notify": {
+        "add": "Ürün sepete eklendi",
+        "clear": "Sepet temizlendi",
+        "remove": "Ürün sepetten çıkarıldı"
+      },
+      "total": "Toplam"
+    },
+    "qrModal": {
+      "scanThisArea": "Bu qr kodu okutarak<br />Hızlıca sipariş verebilirsiniz."
+    }
+  },
+  "errors": {
+    "notRetrievedCategories": "Kategoriler Getirilemedi",
+    "notRetrievedProducts": "Ürünler Getirilemedi"
+  },
+  "form": {
+    "all": "Tümü",
+    "select": "Seçiniz"
+  },
+  "layout": {
+    "footer": {
+      "social": "Sosyal Medya"
+    },
+    "notFound": {
+      "backToBayizone": "Bayizone'a <a href=\"https://bayizone.com\" class=\"text-blue-500 dark:text-blue-400\">dön</a>",
+      "backToProductPage": "Ürünler sayfasına <a href=\"/{0}\" class=\"text-blue-500 dark:text-blue-400\">dön</a>"
+    }
+  },
+  "product": {
+    "description": "Ürün Açıklaması",
+    "details": "Ürün Detayları",
+    "height": "Yükseklik",
+    "length": "Uzunluk",
+    "name": "Ürün Adı",
+    "package": "Paket",
+    "selectedDimension": "U: {length}cm x G: {width}cm x Y: {height}cm",
+    "variantList": {
+      "COLOR": "Renk",
+      "DIMENSION": "Boyut"
+    },
+    "variants": "Varyantlar",
+    "volume": "Hacim",
+    "weight": "Ağırlık",
+    "width": "Genişlik"
+  }
+}

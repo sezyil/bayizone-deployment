@@ -1,0 +1,102 @@
+{
+  "common": {
+    "addToCart": "Add to Cart",
+    "cart": "Cart",
+    "create": "Create",
+    "delete": "Delete",
+    "detail": "Detail",
+    "hasError": "An error occurred",
+    "loading": "Loading...",
+    "product": "Product",
+    "productLoading": "Product loading",
+    "productNotFound": "Product Not Found",
+    "productNotFoundSorry": "Sorry, the product you were looking for was not found.",
+    "products": "Products",
+    "removeFromCart": "Remove from Cart",
+    "search": "Search",
+    "searchInCategory": "Category",
+    "searchInStore": "Search in Store...",
+    "store": "Store",
+    "storeLoading": "Store loading",
+    "storeNotFound": "Store Not Found",
+    "storeNotFoundSorry": "Sorry, the store you were looking for was not found.",
+    "success": "Success"
+  },
+  "components": {
+    "cart": {
+      "empty": "Your cart is empty",
+      "errors": {
+        "address": "The address field cannot be empty!",
+        "cart": "There are no items in your cart!",
+        "city": "The city area cannot be empty!",
+        "country": "Country field cannot be empty!",
+        "district": "District field cannot be empty!",
+        "email": "Email field cannot be empty!",
+        "fullname": "Name-Surname field cannot be empty!",
+        "phone": "Phone field cannot be empty!"
+      },
+      "form": {
+        "address": "Address",
+        "authorizedPerson": "Authorized person",
+        "city": "City",
+        "country": "Country",
+        "currency": "Currency",
+        "customerType": {
+          "corporate": "Corporate",
+          "individual": "Individual"
+        },
+        "district": "District",
+        "email": "E-Mail",
+        "fullname": "Name-Surname",
+        "note": "Note",
+        "noteText": "Note: You can write the notes you want to add in this field.",
+        "phone": "Phone",
+        "success": "Your quote request has been created successfully. \nRelevant information will be sent to your e-mail address.",
+        "title": "Title"
+      },
+      "notify": {
+        "add": "Product added to cart",
+        "clear": "Cart cleared",
+        "remove": "Product removed from cart"
+      },
+      "total": "Total"
+    },
+    "qrModal": {
+      "scanThisArea": "You can order quickly<br /> by scanning this qr code."
+    }
+  },
+  "errors": {
+    "notRetrievedCategories": "Categories could not be retrieved",
+    "notRetrievedProducts": "Products could not be retrieved"
+  },
+  "form": {
+    "all": "All",
+    "select": "Select"
+  },
+  "layout": {
+    "footer": {
+      "social": "Social"
+    },
+    "notFound": {
+      "backToBayizone": "<a href=\"https://bayizone.com\" class=\"text-blue-500 dark:text-blue-400\">Return to Bayizone</a>",
+      "backToProductPage": "<a href=\"/{0}\" class=\"text-blue-500 dark:text-blue-400\">Return to products page</a>"
+    }
+  },
+  "product": {
+    "description": "Product Description",
+    "details": "Product Details",
+    "height": "Height",
+    "length": "Length",
+    "name": "Name",
+    "package": "Package",
+    "selectedDimension": "L: {length}cm x W: {width}cm x H: {height}cm",
+    "variantList": {
+      "COLOR": "Color",
+      "DIMENSION": "Dimension"
+    },
+    "variants": "Variants",
+    "volume": "Volume",
+    "weight": "Weight",
+    "width": "Width"
+  }
+}

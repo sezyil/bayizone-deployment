@@ -1,0 +1,339 @@
+{
+  "account": {
+    "emailNotChangeable": "Email adresiniz değiştirilemez",
+    "settings": "Hesap Ayarları",
+    "updated": "Bilgileriniz güncellendi"
+  },
+  "actions": {
+    "addToCart": "Sepete Ekle",
+    "cancel": "İptal",
+    "clear": "Temizle",
+    "close": "Kapat",
+    "confirm": "Onayla",
+    "create": "Oluştur",
+    "createConfirm": "Oluşturmak istediğinize emin misiniz?",
+    "createError": "Oluşturma işlemi başarısız",
+    "createSuccess": "Oluşturma işlemi başarılı",
+    "delete": "Sil",
+    "deleteConfirm": "Silmek istediğinize emin misiniz?",
+    "deleteError": "Silme işlemi başarısız",
+    "deleteNotRecoverable": "Bu işlemi geri alamayacaksınız!",
+    "deleteSuccess": "Silme işlemi başarılı",
+    "detail": "Detay",
+    "edit": "Düzenle",
+    "loading": "Yükleniyor...",
+    "logout": "Çıkış Yap",
+    "no": "Hayır",
+    "preview": "Görüntüle",
+    "processSuccess": "İşlem Başarılı",
+    "removeFromCart": "Sepetten Çıkar",
+    "save": "Kaydet",
+    "search": "Ara",
+    "seeAll": "Hepsini Gör",
+    "select": "Seçiniz",
+    "show": "Göster",
+    "update": "Güncelle",
+    "updateConfirm": "Güncellemek istediğinize emin misiniz?",
+    "updateError": "Güncelleme işlemi başarısız",
+    "updateSuccess": "Güncelleme işlemi başarılı",
+    "view": "Görüntüle",
+    "yes": "Evet"
+  },
+  "common": {
+    "action": "İşlem",
+    "actions": "İşlemler",
+    "active": "Aktif",
+    "address": "Adres",
+    "all": "Tümü",
+    "buyer": "Alıcı",
+    "city": "Şehir",
+    "country": "Ülke",
+    "created_at": "Oluşturma Tarihi",
+    "currency": "Para Birimi",
+    "data": {
+      "retrievalError": "Veri getirilirken bir hata oluştu"
+    },
+    "date": "Tarih",
+    "description": "Açıklama",
+    "district": "İlçe",
+    "email": "E-posta",
+    "error": "Hata",
+    "filter": {
+      "createDate": "Oluşturma Tarihi",
+      "dateEnd": "Bitiş Tarihi",
+      "dateStart": "Başlangıç Tarihi",
+      "dateType": "Tarih Tipi"
+    },
+    "fullname": "Ad-Soyad",
+    "generalNote": "Genel Not",
+    "loggedOut": "Çıkış Yapıldı",
+    "loggedOutFromTimeout": "Oturumunuzun süresi doldu",
+    "new": "Yeni",
+    "noData": "Veri bulunamadı",
+    "note": "Not",
+    "ok": "Tamam",
+    "options": "Seçenekler",
+    "order": {
+      "date": "Sipariş Tarihi",
+      "invoiceDetail": "Sipariş/Fatura Detayları",
+      "no": "Sipariş No",
+      "overseasSale": "Yurtdışı Satış"
+    },
+    "passive": "Pasif",
+    "phone": "Telefon",
+    "price": "Fiyat",
+    "process_date": "İşlem Tarihi",
+    "product": "Ürün",
+    "productCode": "Ürün Kodu",
+    "productDetail": "Ürün Detayı",
+    "productNote": "Ürün Notu",
+    "productTotalPrice": "Toplam Fiyat",
+    "productUnitPrice": "Birim Fiyat",
+    "provider": "Bayi",
+    "province": "İl",
+    "quantity": "Adet",
+    "redirecting": "Yönlendiriliyorsunuz...",
+    "sent": "Gönderilen",
+    "status": "Durum",
+    "statusHistory": "Durum Geçmişi",
+    "subtotal": "Ara Toplam",
+    "success": "Başarılı",
+    "tax": "Vergi",
+    "thankForChoosingUs": "Bayizone'u tercih ettiğiniz için teşekkür ederiz.",
+    "total": "Toplam",
+    "updated_at": "Güncelleme Tarihi",
+    "variants": "Varyantlar",
+    "zipcode": "Posta Kodu"
+  },
+  "components": {
+    "bank_accounts": {
+      "create": {
+        "title": "Banka Hesabı Oluştur"
+      },
+      "edit": {
+        "title": "Banka Bilgileri"
+      },
+      "form": {
+        "accountNumber": "Hesap Numarası",
+        "swift": "SWIFT Kodu"
+      },
+      "index": {
+        "accountName": "Hesap Adı",
+        "bankName": "Banka Adı",
+        "branchName": "Şube Adı",
+        "iban": "IBAN",
+        "title": "Banka Hesapları"
+      }
+    },
+    "cart": {
+      "addedSuccessfully": "Ürün sepete eklendi.",
+      "noItem": "Sepetinizde ürün bulunmamaktadır.",
+      "remove": "Sepetten Çıkar",
+      "title": "Sepet"
+    },
+    "datatable": {
+      "limit": "Limit",
+      "total": "Toplam {total} veriden {start} - {end} arası gösteriliyor."
+    },
+    "login": {
+      "code": "Firma Kodu",
+      "createNewPassword": "Yeni Şifrenizi Girin",
+      "email": "E-posta",
+      "enterYourCredentials": "Bilgilerinizi Girin",
+      "forgotPassword": "Şifremi Unuttum",
+      "login": "Giriş Yap",
+      "loginToYourAccount": "Hesabınıza Giriş Yapın",
+      "password": "Şifre",
+      "recoverPassword": "Şifremi Sıfırla",
+      "rememberMe": "Beni Hatırla",
+      "success": "Giriş başarılı"
+    },
+    "offerRequestModal": {
+      "title": "Detay"
+    },
+    "offer_request": {
+      "create": {
+        "back": "Geri Dön",
+        "error": "Teklif talebi oluşturulamadı.",
+        "proformaNote": "Proforma Notu",
+        "success": "Teklif talebi oluşturuldu.",
+        "summaryText": "Teklif Özeti"
+      },
+      "elements": {
+        "product": {
+          "height": "Yükseklik",
+          "length": "Uzunluk",
+          "package": "Paket",
+          "volume": "Hacim",
+          "weight": "Ağırlık",
+          "width": "Genişlik"
+        }
+      }
+    },
+    "offer_requests": {
+      "productQuantity": "Ürün Adedi",
+      "status": {
+        "accepted": "Onaylandı",
+        "pending": "Beklemede",
+        "rejected": "Reddedildi"
+      },
+      "title": "Teklif Talepleri"
+    },
+    "offers": {
+      "date": "Teklif Tarihi",
+      "due_date": "Teklif Bitiş Tarihi",
+      "offer_no": "Teklif No",
+      "status": {
+        "approved": "Onaylandı",
+        "canceled": "İptal Edildi",
+        "closed": "Kapatıldı",
+        "draft": "Taslak",
+        "expired": "Süresi Doldu",
+        "pending": "Bayi Onayı Bekliyor",
+        "rejected": "Reddedildi",
+        "revised": "Revize Edildi",
+        "unknown": "Bilinmiyor"
+      },
+      "title": "Teklifler"
+    },
+    "orders": {
+      "downloadExcel": "Excel İndir",
+      "filter": {
+        "orderDate": "Sipariş Tarihi"
+      },
+      "historyNotExist": "Sipariş geçmişi bulunamadı",
+      "lineHistory": "Sipariş Satır Geçmişi",
+      "orderline": {
+        "notselectedfount": "Sipariş Kalemi Seçilmedi/ Bulunamadı"
+      },
+      "remain": "Kalan",
+      "remainQuantity": "Kalan Adet",
+      "sentquantity": "Gönderilen Adet",
+      "show": {
+        "title": "Sipariş Detayları"
+      },
+      "showTitle": "Sipariş: #{0} Detayı",
+      "statusHistory": "Sipariş Durum Geçmişi",
+      "table": {
+        "orderDate": "Sipariş Tarihi",
+        "status": "Durum",
+        "totalPrice": "Toplam Fiyat"
+      },
+      "title": "Siparişler"
+    },
+    "shipment": {
+      "deliver_date": "Teslim Tarihi",
+      "not_delivered": "Teslim Edilmedi",
+      "not_sent": "Gönderilmedi",
+      "sent_date": "Gönderim Tarihi",
+      "shipment_no": "Sevkiyat No",
+      "total_package": "Toplam Paket",
+      "total_volume": "Toplam Hacim",
+      "total_weight": "Toplam Ağırlık",
+      "unit_package": "Birim Paket",
+      "unit_volume": "Birim Hacim",
+      "unit_weight": "Birim Ağırlık"
+    },
+    "users": {
+      "create": {
+        "title": "Kullanıcı Oluştur"
+      },
+      "edit": {
+        "title": "Kullanıcı Düzenle"
+      },
+      "form": {
+        "email": "Email",
+        "name": "Ad-Soyad",
+        "password": "Şifre",
+        "passwordNotEqual": "Şifreler Eşleşmiyor",
+        "phone": "Telefon",
+        "repass": "Şifre Onayı"
+      },
+      "index": {
+        "title": "Kullanıcılar"
+      }
+    },
+    "warehouses": {
+      "create": {
+        "title": "Depo Oluştur"
+      },
+      "edit": {
+        "title": "Depo Düzenle"
+      },
+      "form": {
+        "contactPerson": "İletişim Kişisi",
+        "contactPersonMail": "İletişim Kişisi E-Posta",
+        "contactPersonPhone": "İletişim Kişisi Telefon"
+      },
+      "index": {
+        "authorizedName": "Yetkili Adı",
+        "name": "Depo Adı",
+        "title": "Depo Listesi"
+      }
+    }
+  },
+  "input": {
+    "fillRequiredFields": "Lütfen zorunlu alanları doldurunuz.",
+    "starAreaNeedFill": "Yıldızlı alanlar zorunludur."
+  },
+  "pages": {
+    "auth": {
+      "forgotPassword": {
+        "forResetEnterEmail": "Şifrenizi sıfırlamak için e-posta adresinizi giriniz",
+        "invalidLink": "Geçersiz istek",
+        "newpassword": "Yeni Şifre",
+        "repass": "Yeni Şifre Tekrar",
+        "resetPassword": "Şifremi Sıfırla",
+        "success": "Şifre sıfırlama bağlantısı e-posta adresinize gönderildi.",
+        "successChange": "Şifreniz başarıyla değiştirildi.",
+        "title": "Şifremi Unuttum"
+      },
+      "login": {
+        "title": "Kullanıcı Girişi"
+      }
+    },
+    "dashboard": {
+      "approvedOffer": "Onaylanmış Teklifler",
+      "last5OfferRequest": "Son 5 Teklif Talebi",
+      "offerStatuses": {
+        "accepted": "Onaylandı",
+        "default": "Beklemede",
+        "pending": "Beklemede",
+        "rejected": "Reddedildi"
+      },
+      "pendingOffer": "Bekleyen Teklifler",
+      "rejectedOffer": "Reddedilen Teklifler",
+      "totalOffer": "Toplam Teklifler"
+    }
+  },
+  "sidemenu": {
+    "bankAccounts": "Banka hesapları",
+    "createOfferRequest": "Teklif Talebi Oluştur",
+    "dashboard": "Anasayfa",
+    "offer": "Teklifler",
+    "offerRequest": "Teklif Talepleri",
+    "orders": "Siparişler",
+    "product": "Ürünler",
+    "productCategory": "Ürün Kategorileri",
+    "shipments": "Sevkiyatlar",
+    "store": "Mağaza",
+    "user": "Kullanıcılar",
+    "warehouse": "Depolar"
+  },
+  "statuses": {
+    "common": {
+      "canceled": "İptal Edildi",
+      "draft": "Taslak",
+      "unknown": "Bilinmeyen"
+    },
+    "shipment": {
+      "delivered": "Teslim Edildi",
+      "pending": "Bekliyor",
+      "shipped": "Gönderildi"
+    }
+  },
+  "variant": {
+    "COLOR": "Renk",
+    "DIMENSION": "Boyut"
+  }
+}
